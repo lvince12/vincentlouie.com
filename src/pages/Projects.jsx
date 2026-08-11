@@ -56,7 +56,7 @@ function Projects() {
                 <div className='text'>
                     Idle Game
                     <a href="https://github.com/godbil/idle-game"><img src={git} alt="GitHub"/></a>
-                    <a href="https://godbil.github.io/idle-game/"><img src={web} alt="Web"/></a>
+                    <a href="https://lvince12.github.io/idle-game/"><img src={web} alt="Web"/></a>
                     <div className="break"></div>
                     <p>A game that I am currently working on right now which uses HTML, CSS, JavaScript and React. The game is based off of Clickere Heroes and uses sprites from my previous game, Medieval
                         Tower Defense. Currently the game is semi-playable but has minimal graphics and content. There may be a few bugs and I will be continuing to work on the game.

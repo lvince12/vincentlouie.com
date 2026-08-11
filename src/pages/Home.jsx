@@ -17,7 +17,7 @@ function Home() {
             <a href="https://www.linkedin.com/in/vincent-louie-66447a224/"><img src={linkedin} alt="LinkedIn"/></a>
         </div>
         <div className='arrow'>
-            <a className='arrow' href="#projects"><img src={arrow} alt="Arrow"/></a>
+            <a className='arrow' href="#about"><img src={arrow} alt="Arrow"/></a>
         </div>
     </>
     );
