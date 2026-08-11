@@ -155,24 +155,42 @@ img:not(.gamejolt, .menu, .graph, .card, .site, .idle) {
 }
 
 .resume {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 100vh;
-  padding-top: 50px;
-  background-color: rgb(25, 3, 44);
-  color: darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px 20px;
+    background-color: rgb(25, 3, 44);
+    color: darkgray;
 }
 
 .resume .title {
-  display: flex;
-  justify-content: center;
-  font-size: 46px;
-  font-weight: bold;
-  width: 100%;
-  height: 120px;
-  color: rgb(255, 255, 188);
-  border-bottom: 1px solid rgb(124, 121, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    font-weight: bold;
+    width: 100%;
+    min-height: 120px;
+    color: rgb(255, 255, 188);
+    border-bottom: 1px solid rgb(124, 121, 197);
+    margin-bottom: 30px;
+}
+
+.resume-container {
+    width: min(900px, 95vw);
+    height: calc(100vh - 220px);
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.doc {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
 }
 
 .footer {
@@ -258,12 +276,24 @@ img:not(.gamejolt, .menu, .graph, .card, .site, .idle) {
     }
 
     .resume {
-        height: auto;
-        min-height: 100vh;
+        padding: 30px 10px;
     }
 
     .resume .title {
         font-size: 36px;
+        min-height: 80px;
+        margin-bottom: 20px;
+    }
+
+    .resume-container {
+        width: 100%;
+        height: 75vh;
+        min-height: 500px;
+    }
+
+    .doc {
+        width: 100%;
+        height: 100%;
     }
 
     .footer {

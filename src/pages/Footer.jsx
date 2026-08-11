@@ -10,7 +10,7 @@ function Footer() {
             <a href="https://github.com/godbil"><img src={git} alt="GitHub"/></a>
             <a href="https://www.linkedin.com/in/vincent-louie-66447a224/"><img src={linkedin} alt="LinkedIn"/></a>
             <div className="break"></div>
-            <div>© Vincent Louie      2023</div>
+            <div>© Vincent Louie      2026</div>
         </div>
     );
 }
