@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fe49c0665c7fd134b3b9",
+    "revision": "d628e5b01b9f31575395",
     "url": "/vincentlouie.com/static/css/main.e8d451ad.chunk.css"
   },
   {
-    "revision": "fe49c0665c7fd134b3b9",
-    "url": "/vincentlouie.com/static/js/main.6a4cda55.chunk.js"
+    "revision": "d628e5b01b9f31575395",
+    "url": "/vincentlouie.com/static/js/main.ad8ca8fb.chunk.js"
   },
   {
     "revision": "74264cfad888ac1773fe",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/vincentlouie.com/static/media/idlegame.ab34e3f4.png"
   },
   {
-    "revision": "81da7fcdb1b6a78c200ce3d8716fd8d2",
+    "revision": "cfb423fb8aaa2129555e428cec300f00",
     "url": "/vincentlouie.com/index.html"
   }
 ];
